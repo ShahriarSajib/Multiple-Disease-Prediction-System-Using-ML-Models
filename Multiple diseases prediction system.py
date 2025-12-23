@@ -112,9 +112,9 @@ section[data-testid="stSidebar"] {
 
 # Loading the saved models
 try:
-    diabetes_model = pickle.load(open('C:/Users/mohmmad/python/diabetes_model.sav', 'rb'))
-    heart_disease_model = pickle.load(open('C:/New folder (5)/Multiple Disease Prediction System/heart_disease_model.sav','rb'))
-    parkinsons_model = pickle.load(open('C:/New folder (5)/Multiple Disease Prediction System/parkinsons_model.sav', 'rb'))
+    diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+    heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
+    parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 except FileNotFoundError as e:
     st.error(f"⚠️ Error loading models: {e}")
     st.stop()
@@ -291,4 +291,5 @@ st.markdown("""
         <p>⚠️ <strong>Disclaimer:</strong> This is a prediction tool and should not replace professional medical advice. 
         Always consult with healthcare professionals for accurate diagnosis and treatment.</p>
     </div>
+
 """, unsafe_allow_html=True)
