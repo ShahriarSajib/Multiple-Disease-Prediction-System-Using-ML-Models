@@ -40,23 +40,23 @@ Algorithms used may include:
 
 Multiple-Disease-Prediction-System-Using-ML-Models/
 │
-├── Multiple diseases prediction system.py # Main Streamlit app
-├── hui.py # Additional UI/helper logic
+├── Multiple diseases prediction system.py   # Main Streamlit application
+├── hui.py                                  # UI/helper functions
 │
-├── diabetes.ipynb
-├── heart_disease.ipynb
-├── Parkinsons_disease.ipynb
+├── diabetes.ipynb                          # Diabetes model training notebook
+├── heart_disease.ipynb                     # Heart disease model training notebook
+├── Parkinsons_disease.ipynb                # Parkinson’s disease training notebook
 │
-├── diabetes.csv
-├── heart.csv
-├── parkinsons.csv
+├── diabetes.csv                            # Diabetes dataset
+├── heart.csv                               # Heart disease dataset
+├── parkinsons.csv                          # Parkinson’s dataset
 │
-├── diabetes_model.sav
-├── heart_disease_model.sav
-├── parkinsons_model.sav
+├── diabetes_model.sav                      # Trained diabetes model
+├── heart_disease_model.sav                # Trained heart disease model
+├── parkinsons_model.sav                   # Trained Parkinson’s model
 │
-├── requirements.txt
-└── README.md
+├── requirements.txt                        # Project dependencies
+└── README.md                               # Project documentation
 
 
 
